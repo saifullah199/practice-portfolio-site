@@ -89,6 +89,7 @@ main{
     color: #757575;
     text-align: center;
     font-size: 18px;
+    
 }
 .about-info-container{
     display: flex;
@@ -103,4 +104,12 @@ main{
 .info-description{
     font-weight: bold;
     font-size: 20px;
+    
 }
+.skills-container{
+    display: flex;
+    margin-top: 20px;
+}
+   .skills{
+    
+   } 
