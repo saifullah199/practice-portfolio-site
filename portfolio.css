@@ -158,6 +158,9 @@ main{
    .footer-column{
     width: 50%;
    }
+   .social-link a{
+    margin-right: 25px;
+   }
    footer input[type="text"], input[type="email"], textarea{
     display: flex;
     margin-bottom: 25px;
