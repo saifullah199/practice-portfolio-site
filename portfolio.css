@@ -176,17 +176,23 @@ main{
     display: none;
 }
 @media screen and (max-width:576px) {
-    .skills-container, .resume-container, footer{
+    nav, nav > ul, .banner, .about-info-container, .skills-container, .resume-container, footer{
         flex-direction: column;
     }
-    .what-i-do-description{
+     .what-i-do-description{
         padding: 20px;
     }
-    footer{
-        width: 100%;
+    .about, footer{
+        
         padding: 10px;
     }
-    .footer-column{
+    .btn-primary{
+        margin-bottom: 15px;
+    }
+    .about {
+        margin: 0;
+    }
+    .profile-pic, .footer-column{
         width: 100%;
     }
     footer input[type="text"], input[type="email"], textarea{
@@ -194,7 +200,7 @@ main{
     }
 }
 @media screen and (min-width:576px) and (max-width:960px){
-    .skills-container, .resume-container, footer{
+    .banner, .skills-container, .resume-container, footer{
         flex-direction: column;
     }
     footer{
